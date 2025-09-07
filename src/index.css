@@ -18,27 +18,27 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    /* Educational Brand Colors - Professional Blue/Teal Theme */
-    --primary: 210 90% 45%;
+    /* Human-Centered Brand Colors - Warm & Approachable */
+    --primary: 215 85% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-muted: 210 90% 95%;
+    --primary-muted: 215 85% 96%;
 
-    /* Educational Secondary - Trustworthy Teal */
-    --secondary: 180 25% 94%;
-    --secondary-foreground: 180 25% 25%;
+    /* Friendly Secondary - Soft Lavender */
+    --secondary: 220 15% 96%;
+    --secondary-foreground: 220 15% 25%;
 
-    /* Status Colors for Risk Assessment */
-    --success: 142 76% 36%;
+    /* Gentle Status Colors - Softer & More Human */
+    --success: 140 65% 45%;
     --success-foreground: 0 0% 100%;
-    --success-muted: 142 76% 95%;
+    --success-muted: 140 65% 96%;
 
-    --warning: 43 96% 56%;
+    --warning: 40 85% 60%;
     --warning-foreground: 0 0% 100%;
-    --warning-muted: 43 96% 95%;
+    --warning-muted: 40 85% 95%;
 
-    --danger: 0 84% 60%;
+    --danger: 5 75% 65%;
     --danger-foreground: 0 0% 100%;
-    --danger-muted: 0 84% 95%;
+    --danger-muted: 5 75% 95%;
 
     /* UI Elements */
     --muted: 220 14% 96%;
@@ -64,13 +64,13 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 210 90% 45%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    /* Educational Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(210, 90%, 45%), hsl(195, 85%, 55%));
-    --gradient-success: linear-gradient(135deg, hsl(142, 76%, 36%), hsl(120, 70%, 45%));
-    --gradient-warning: linear-gradient(135deg, hsl(43, 96%, 56%), hsl(38, 92%, 65%));
-    --gradient-danger: linear-gradient(135deg, hsl(0, 84%, 60%), hsl(15, 80%, 65%));
+    /* Warm Human Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215, 85%, 55%), hsl(235, 80%, 65%));
+    --gradient-success: linear-gradient(135deg, hsl(140, 65%, 45%), hsl(160, 60%, 55%));
+    --gradient-warning: linear-gradient(135deg, hsl(40, 85%, 60%), hsl(50, 80%, 70%));
+    --gradient-danger: linear-gradient(135deg, hsl(5, 75%, 65%), hsl(25, 70%, 70%));
 
     /* Shadows */
     --shadow-soft: 0 2px 8px -2px hsl(220 15% 15% / 0.1);
@@ -138,9 +138,9 @@
     @apply bg-danger text-danger-foreground;
   }
 
-  /* Dashboard card enhancements */
+  /* Friendly card enhancements */
   .dashboard-card {
-    @apply bg-card border border-border rounded-lg shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-medium)] transition-[var(--transition-smooth)];
+    @apply bg-card border border-border rounded-2xl shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-medium)] transition-[var(--transition-smooth)] hover:scale-[1.02];
   }
 
   /* Gradient backgrounds */
